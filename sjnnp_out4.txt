@@ -1,0 +1,58 @@
+CPU sheduling algorithm: sjnnp
+Total number of CPU requests: 5
+---------------------------------------------------------
+Clock: 0
+Pending CPU request(s): 
+5 0 10
+
+CPU Request serviced during this clock interval: 5 0 10
+---------------------------------------------------------
+Clock: 10
+Pending CPU request(s): 
+4 5 5
+3 7 4
+2 8 2
+1 9 4
+
+CPU Request serviced during this clock interval: 2 8 2
+---------------------------------------------------------
+Clock: 12
+Pending CPU request(s): 
+4 5 5
+3 7 4
+1 9 4
+
+CPU Request serviced during this clock interval: 3 7 4
+---------------------------------------------------------
+Clock: 16
+Pending CPU request(s): 
+4 5 5
+1 9 4
+
+CPU Request serviced during this clock interval: 1 9 4
+---------------------------------------------------------
+Clock: 20
+Pending CPU request(s): 
+4 5 5
+
+CPU Request serviced during this clock interval: 4 5 5
+---------------------------------------------------------
+Turn-Around Time Computations
+
+TAT(5) = 10
+TAT(2) = 4
+TAT(3) = 9
+TAT(1) = 11
+TAT(4) = 20
+
+Average TAT = 10.8
+---------------------------------------------------------
+Wait Time Computations
+
+WT(5) = 0
+WT(2) = 2
+WT(3) = 5
+WT(1) = 7
+WT(4) = 15
+
+Average WT = 5.8

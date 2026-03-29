@@ -1,0 +1,58 @@
+CPU sheduling algorithm: fcfs
+Total number of CPU requests: 5
+---------------------------------------------------------
+Clock: 0
+Pending CPU request(s): 
+5 0 10
+
+CPU Request serviced during this clock interval: 5 0 10
+---------------------------------------------------------
+Clock: 10
+Pending CPU request(s): 
+4 5 5
+3 7 4
+2 8 2
+1 9 4
+
+CPU Request serviced during this clock interval: 4 5 5
+---------------------------------------------------------
+Clock: 15
+Pending CPU request(s): 
+3 7 4
+2 8 2
+1 9 4
+
+CPU Request serviced during this clock interval: 3 7 4
+---------------------------------------------------------
+Clock: 19
+Pending CPU request(s): 
+2 8 2
+1 9 4
+
+CPU Request serviced during this clock interval: 2 8 2
+---------------------------------------------------------
+Clock: 21
+Pending CPU request(s): 
+1 9 4
+
+CPU Request serviced during this clock interval: 1 9 4
+---------------------------------------------------------
+Turn-Around Time Computations
+
+TAT(5) = 10
+TAT(4) = 10
+TAT(3) = 12
+TAT(2) = 13
+TAT(1) = 16
+
+Average TAT = 12.2
+---------------------------------------------------------
+Wait Time Computations
+
+WT(5) = 0
+WT(4) = 5
+WT(3) = 8
+WT(2) = 11
+WT(1) = 12
+
+Average WT = 7.2
